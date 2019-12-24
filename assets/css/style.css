@@ -259,7 +259,7 @@ label {
   margin-bottom: 0;
   font-size: 24px;
   font-weight: 600;
-  
+
 }
 
 .section-title p {
@@ -549,10 +549,18 @@ Navbar CSS
 Main Banner CSS
 =================================================*/
 .main-banner {
-  position: relative;
-  height: 910px;
+position: relative;
+  height: 810px;
   z-index: 1;
-  background: transparent url(../img/bg.png) right top no-repeat;
+/*
+  background: transparent url(../img/HG.png) right top no-repeat;   width: 100%;
+*/
+
+background: url(../img/HG.png) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 .main-banner .hero-content h1 {
